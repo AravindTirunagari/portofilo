@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Aravind Tirunagari Resume</title>
+        <style>
+            body {
+                /*background-image: url("1684.jpg");*/
+                background-image: linear-gradient(white,gray);
+                /*background-color: rgb(255, 255, 255);*/
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-attachment: fixed;
+                height: 100vh;
+                margin: 20px;
+                padding-bottom: 20px;
+            }
+            .section1 {
+                margin: 12px;
+                text-align: center;
+                font-weight: bold;
+                font-size: 24px;
+                border: 2px;
+                border-style: solid;
+                border-width: small;
+                backdrop-filter: blur(24px);
+                background-color: rgb(255, 255, 255);
+                opacity: 0.8;
+                transition: opacity 0.3s ease;
+            }
+
+            .section2 {
+                margin: 12px;
+                text-align: justify;
+                font-size: 18px;
+                border: 1px transparent;
+                border-collapse: collapse;
+                border-style: solid;
+                border-width: medium;
+                background-color: rgb(255, 255, 255);
+                backdrop-filter: blur(24px);
+                display: grid;
+                grid-template-rows: 15% 85%;
+                grid-template-columns: 80% 20%;
+                gap: 0px; /* Remove gap between grid elements */
+                padding: 12px; /* Remove extra padding */
+                opacity: 0.9;
+                transition: opacity 0.3s ease;
+                word-wrap: break-word;
+                /*overflow-wrap: break-word;*/
+                /*overflow: hidden;*/
+                /*box-sizing: border-box;*/
+                flex-direction: column;
+            }
+
+            .section2-heading {
+                padding: 0px;
+                grid-column: 1 / span 2; /* Heading spans across both columns */
+                font-size: 24px;
+                text-align: center;
+                /*border: 2px solid black;*/
+                margin: 1px; /* Remove extra margin */
+            }
+
+            .section2-text {
+                font-size: 18px;
+                text-align: justify;
+                /*border: 2px solid black;*/
+                margin: 1px; /* Remove extra margin */
+                padding: 0px; /* Remove extra padding */
+                /*height: 300px;*/
+                /*object-fit: contain;*/
+                max-width: 100%;
+                word-wrap: break-word;
+                /*overflow-wrap: break-word;*/
+                /*box-sizing: border-box;*/
+            }
+
+            .section2-img {
+                display: flex;
+                justify-content: center;padding: 12px;
+                align-items: center;
+                /*border: 2px solid black;*/
+                margin: 1px; /* Remove extra margin */
+                padding: 0px; /* Remove extra padding */
+                /*height: 300px;*/
+                overflow: hidden;
+            }
+
+            .section2-img img {
+                max-width: 100%; /* Ensures image scales to fit the container */
+                height: auto;
+                object-fit: contain;
+            }
+
+            .section3 {
+                margin: 12px;
+                display: grid;
+                border: 1px transparent;
+                grid-template-columns: 1fr 1fr;
+                gap: 0px;
+                backdrop-filter: blur(24px);border-radius: 5px;
+                padding: 0px;
+                /*border: 1px solid black;*/
+                font-size: 18px;
+                opacity: 0.9;
+                transition: opacity 0.3s ease;
+            }
+
+            .section3 div {
+                padding: 20px;
+                /*border: 2px solid black;*/
+                background-color: rgba(255, 255, 255);
+                height: 100%; 
+                box-sizing: border-box;
+            }
+            
+            li {
+                margin: 10px 0;
+            }
+
+            .section1:hover {
+                opacity: 1.0;
+            }
+            .section2:hover {
+                opacity: 1.0;
+                box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.6);
+            }
+            .section3:hover {
+                opacity: 1.0;
+                box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.6);
+            }
+            a {
+                display: inline-block; /* Keeps the link inside the box */
+                word-wrap: break-word; /* Ensures long URLs break properly */
+                overflow-wrap: break-word; /* Prevent overflow for the link */
+                text-decoration: none;
+                color: blue;
+                max-width: 100%;
+                padding: 6px 0;
+                /*padding-bottom: 20px 0;
+                margin: 0;
+                white-space: normal;*/
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <section class="section1">
+            <h1>Aravind Tirunagari</h1>
+        </section>
+
+        <section class="section3">
+            <div> 
+                <h2>Education</h2>
+                <p>BACHELOR OF TECHNOLOGY IN MECHANICAL ENGINEERING</p>
+                <ul>
+                    <li>GITAM University, 2016-2020</li>
+                    <li>CGPA: 7.4</li>
+                </ul>    
+                <h2>Experience</h2>
+                <h3>SELFRAY</h3>
+                <P>Research Analyst, MAY 2023 - JULY 2024</P>
+                <ul>
+                    <li>Conducted comprehensive research on individuals, focusing on business data, executive roles, board memberships, organisational affiliations, and philanthropic activities.</li>
+                    <li>Compiled and organised collected data into structured Excel spreadsheets, ensuring clarity and accessibility for clients.</li>
+                    <li>Utilised advanced data science techniques to verify the accuracy of gathered information, performing rigorous data validation and rechecking.</li>
+                    <li>Leveraged tools such as ChatGPT for efficient data organisation and summarization, enhancing data processing efficiency.</li>
+                    <li>Collaborated with cross-functional teams to provide insights and reports, supporting strategic decision-making processes.</li>
+                </ul>
+            </div>
+            <div>
+                <h2>Skills</h2>
+
+                <ul>
+                    <li><u>Python Programming:</u> Intermediate proficiency in Python, with hands-on experience using modules like NumPy, Pandas, Matplotlib, and Scikit-learn.</li>
+                    <li><u>Java Programming:</u> Beginner level experience in Java programming.</li>
+                    <li><u>Data Analysis Tools:</u> Experienced in utilizing Tableau and Excel for comprehensive data analysis.</li>
+                    <li><u>Database Management:</u> Familiar with managing databases using MySQL and experienced with NoSQL databases like MongoDB.</li>
+                    <li><u>GitHub:</u> Knowledgeable in version control and collaboration using GitHub for project management and code sharing.</li>
+                    <li><u>Linux OS:</u> Experienced in using and managing Linux operating systems for development and deployment.</li>
+                    <li><u>Web Development (HTML, CSS, JavaScript):</u> Knowledgeable in creating responsive and interactive web applications using HTML, CSS, and JavaScript.</li>
+                    <li><u>Machine Learning & Data Analysis:</u> Intermediate KNowledge in building and analyzing machine learning models and interpreting data insights.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section1">
+            <h1>Projects</h1>
+        </section>
+
+        <section class="section2">
+            <h2 class="section2-heading">Smart Movie Recommender</h2>
+            <div class="section2-text">
+                <p>A machine learning-based recommendation system built using Python, designed to suggest relevant items to users. The system is deployed through Streamlit for interactive use.</p>
+                
+                <ul>
+                    <li><u>TMDb API Integration:</u> The system fetches movie posters using the TMDb API, showing visuals with the recommendations.</li>
+                    <li><u>Cosine Similarity:</u> A similarity matrix helps find the top 5 movies related to the one searched by the user.</li>
+                    <li><u>Pickle Files:</u> Preprocessed movie data and similarity matrix are stored in pickle files for fast loading and processing.</li>
+                    <li><u>Streamlit Interface:</u> Users select movies from a dropdown, and the system shows five similar movies with names and posters.</li>
+                    <li><u>Real-time Recommendations:</u> Recommendations update instantly as the user interacts with the system, providing a smooth experience.</li>
+                    <a href="https://movie-recommender-system-tmdb-dataset-kvcthgx8fup6vkk5fc9vmd.streamlit.app/">Smart Movie Recommender</a>
+                </ul>
+                          
+            </div>
+           <div class="section2-img">
+                <img src="thumbnail-1.png" alt="Sample Image">
+           </div>
+        </section>
+
+        <section class="section2">
+            <h2 class="section2-heading">Interactive Sales Insights Dashboard</h2>
+            <div class="section2-text">
+                <p>This project is a dynamic sales dashboard built using Streamlit and Plotly. It allows users to visualize sales data with filters for city, customer type, and gender.</p>               
+                <ul>
+                    <li><u>Excel Integration:</u> Reads and processes data from an Excel file using Pandas to display relevant sales information.</li>
+                    <li><u>Interactive Filters:</u> Users can filter the sales data by city, customer type, and gender, providing tailored insights.</li>
+                    <li><u>Dynamic KPIs:</u> The dashboard calculates and displays key metrics such as total sales, average rating, and sales per transaction.</li>
+                    <li><u>Visualizations:</u> Bar charts visualize sales by product line and by the hour, created with Plotly for a clean, interactive experience.</li>
+                    <li><u>Real-Time Updates:</u>The dashboard updates instantly based on the selected filters, ensuring the user sees the latest data.</li>
+                    <a href="https://excel-dashboard-ba2rbnhrymb7ipblur6l8r.streamlit.app/">Interactive Sales Insights Dashboard</a> 
+                </ul>           
+                  
+            </div>
+            <div class="section2-img">
+                <img src="thumbnail-2.png" alt="Sample Image">
+            </div>         
+        </section>
+        <section class="section1"></section>
+            <p> </p>
+        </section>
+
+    </body>
+</html>
